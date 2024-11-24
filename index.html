@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academia de Idiomas, aprender más de 10 idiomas. Cursos personalizados para todos los niveles.">
+  <title>SpracheCaffe</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  
+  <section class="home">
+    <div class="description">
+      <h1 class="title">
+        <span class="gradient-text">Academia de Idiomas</span> SPRACHECAFFE
+      </h1>
+      <p class="paragraph">
+        Tu lugar para aprender más de un idioma. Ofrecemos clases de idiomas de todo el mundo, desde inglés, francés, y alemán hasta japonés, chino y árabe. Contamos con modalidades flexibles: presenciales, online, individuales o grupales, adaptadas a tus necesidades y ritmo. Nuestros profesores nativos y certificados te acompañarán en cada paso del proceso. Descubre nuevas culturas y abre puertas a nuevas oportunidades!
+      </p>
+      <form id="form" autocomplete="off">
+        <input
+          type="email"
+          id="email-id"
+          name="email_address"
+          aria-label="email address"
+          placeholder="Ingresa tu correo"
+          required
+          oninput="checkEmpty()" />
+        <button type="submit" class="btn" aria-label="submit" id="submit-btn">
+          <span>Subscribete</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </form>
+    </div>
+
+    <div class="users-color-container">
+      <img class="item" src="imagen1.jpg" style="--i: 1"></img>
+      <img class="item" src="imagen2.jpeg" style="--i: 2" />
+      <img class="item" src="imagen3.jpg" style="--i: 3" />
+      <img  class="item" src="imagen4.jpeg" style="--i: 4" />
+      <img class="item" src="imagen5.jpg" style= "--i: 5"></img>
+      <img  class="item" src="imagen6.png" style="--i: 6" />
+        <img class="item" src="imagen7.jpeg" style= "--i: 7"></img>
+        <img class="item" src="imagen8.jpeg" style="--i: 8" />
+      <img class="item" src="imagen9.jpeg" style="--i: 9"></img>
+        <img   class="item"  src="imagen10.jpeg"  style="--i: 10"> </img>
+      <img class="item" src="imagen11.jpeg" style="--i: 11"></img>
+      <img class="item" src="imagen12.jpg" style="--i: 12" />
+    </div>
+  </section>
+
+  <section class="card-container fade-in" id="card-container">
+    <div class="slider">
+      <div class="card" >
+        <div class="content">
+          <img src="imagen13.jpeg"  />
+          <h1>Clases personalizadas según tus necesidades</h1>
+          <p>
+            En nuestra escuela, cada estudiante es único, por lo que ofrecemos clases diseñadas específicamente para ti. Ya sea que quieras aprender inglés, francés, alemán o cualquier otro idioma.
+          </p>
+          <button class="btn btn-grad">
+            <span>Más Información</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+        <div class="card" >
+          <div class="content">
+          <img src="imagen14.jpg"  />
+          <h1>Métodos innovadores y efectivos</h1>
+          <p>
+            En nuestra escuela, utilizamos métodos de enseñanza modernos y dinámicos que fomentan la participación activa. Olvídate de clases aburridas; nos centramos en la interacción, la conversación y el uso práctico del idioma. 
+          </p>
+          <button class="btn btn-grad">
+            <span>Más Información</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="card" >
+        <div class="content">
+          <img src="imagen15.jpg"  />
+          <h1>Ambiente internacional y multicultural</h1>
+          <p>
+            Estudiar en un entorno diverso y multicultural te permite sumergirte de manera auténtica en el idioma. En nuestra escuela, tenemos estudiantes y profesores de todo el mundo.
+          </p>
+          <button class="btn btn-grad">
+            <span>Más Información</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+        <div class="card" >
+        <div class="content">
+          <img src="imagen16.jpeg" />
+          <h1>Horarios flexibles para tu comodidad</h1>
+          <p>
+            Sabemos que tu tiempo es valioso, por eso ofrecemos horarios flexibles para que puedas estudiar según tu disponibilidad. Ya sea en la mañana, tarde o noche, tenemos clases que se adaptan a tu rutina. 
+          </p>
+          <button class="btn btn-grad">
+            <span>Más Información</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="card" >
+        <div class="content">
+          <img src="imagen17.jpg"  />
+          <h1>Precios accesibles y promociones especiales</h1>
+          <p>
+            Queremos que el aprendizaje de un idioma sea accesible para todos, por eso ofrecemos precios competitivos y promociones especiales durante todo el año.
+          </p>
+          <button class="btn btn-grad">
+            <span>Más Información</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+        <div class="card" >
+        <div class="content">
+          <img src="imagen18.jpg"  />
+          <h1>Certificaciones oficiales y reconocimiento internacional</h1>
+          <p>
+            Nuestra escuela te ofrece la posibilidad de obtener certificaciones oficiales reconocidas internacionalmente, como el DELE, TOEFL o Cambridge.
+          </p>
+          <button class="btn btn-grad">
+            <span>Más Información</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+          </div>      
+        </div>
+      </div>
+        <ul class="control" id="custom-control">
+          <li class="prev">
+            <ion-icon name="caret-back-outline">Atras</ion-icon>
+          </li>
+          <li class="next">
+            <ion-icon name="caret-forward-outline">Adelante</ion-icon>
+          </li>
+          </ul>
+
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/tiny-slider@2.9.3/dist/tiny-slider.js"></script>
+<script src="index.js" defer></script>
+
+</body>
+</html>
